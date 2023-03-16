@@ -108,7 +108,7 @@ internal class DummySensorEngine(interval: Int) {
     }
 
     private val value: Double
-        private get() = Math.cos(Math.PI * mIndex / 31) + Math.sin(Math.PI * (mIndex + 1) / 15)
+        private get() = Math.cos(Math.PI * mIndex / 30) + Math.sin(Math.PI * (mIndex + 1) / 15)
 
     interface Listener {
         fun onValueMonitored(value: Double)
